@@ -24,7 +24,7 @@ def creds = [
     $class: 'UsernamePasswordMultiBinding',
     credentialsId: 'tectonic-console-login',
     passwordVariable: 'TF_VAR_tectonic_admin_email',
-    usernameVariable: 'TF_VAR_tectonic_admin_password_hash'
+    usernameVariable: 'TF_VAR_tectonic_admin_password'
   ],
   [
     $class: 'AmazonWebServicesCredentialsBinding',
